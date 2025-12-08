@@ -1,1 +1,32 @@
-{}
+{}{
+  "name": "hft-arbitrag",
+  "version": "1.0.0",
+  "description": "Professional Crypto Arbitrage Trading Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.263.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-loader": "^9.4.0",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.0",
+    "html-webpack-plugin": "^5.5.0",
+    "css-loader": "^6.8.0",
+    "style-loader": "^3.3.0",
+    "nodemon": "^3.0.1"
+  }
+}
